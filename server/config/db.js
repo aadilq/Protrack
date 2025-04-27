@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const connectDB = async () => {
   try {
     // Use a fallback value if environment variable is missing
-    const uri = process.env.MONGO_URI || 'mongodb://localhost:27017/taskmaster';
+    const uri = process.env.MONGO_URI
     console.log('Connecting to MongoDB with URI:', uri);
     
     const conn = await mongoose.connect(uri);
