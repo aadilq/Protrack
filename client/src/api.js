@@ -27,6 +27,6 @@ export const updateTask = async (id, task) => {
 }
 
 export const deleteTask = async (id) => {
-    await fetch(`${API_URL}/tasks/${id}`, {method: 'DELETE'})
-    
+    await fetch(`${API_URL}/tasks/${id}`, {method: 'DELETE'});
+    return true;
 }

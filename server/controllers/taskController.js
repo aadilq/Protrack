@@ -32,8 +32,8 @@ exports.getTask = async (req, res) => {
 
 
         res.status(200).json({
-    success: true, 
-    data: task
+        success: true, 
+        data: task
 });
         
     }
