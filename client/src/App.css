@@ -181,5 +181,99 @@ textarea{
   background-color: #ccc;
 }
 
+.task-recommendations{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Recommendations title */
+.task-recommendations h2 {
+  color: #4a6fa5;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Information text */
+.recommendations-info {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Recommendations list */
+.recommendations-list {
+  display: grid;
+  gap: 12px;
+}
+
+/* Individual recommendation item */
+.recommendation-item {
+  padding: 12px 16px;
+  border-radius: 6px;
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.recommendation-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.recommendation-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+
+.recommendation-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #777;
+}
+
+
+.recommendation-priority {
+  font-weight: 500;
+}
+
+
+.recommendation-due {
+  font-style: italic;
+}
+
+
+.recommendations-loading {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-style: italic;
+}
+
+
+.recommendations-error {
+  color: #e53935;
+  padding: 15px;
+  text-align: center;
+  background-color: #ffebee;
+  border-radius: 6px;
+}
+
+
+.no-recommendations {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
 
 

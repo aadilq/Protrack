@@ -6,6 +6,19 @@ export const fetchTasks = async () => {
     return data.data
 }
 
+export const fetchPrioritizedTasks = async () => {
+    const response = await fetch (`${API_URL}/tasks/prioritized`)
+    const data = await response.json();
+    return data.data
+}
+
+export const fetchTaskRecommendations = async () => {
+    const response = await fetch(`${API_URL}/tasks/recommendations`)
+    const data = await response.json();
+    return data.data
+    
+}
+
 export const createTask = async (task) => {
     const response = await fetch(`${API_URL}/tasks`, {
         method: 'POST', 
