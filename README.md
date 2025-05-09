@@ -19,11 +19,4 @@ Est. Time (min): Duration of the task
 
 ## Demo
 
-<div>
-    <a href="https://www.loom.com/share/9d5ae6a7e7474d6c89570b51af1ae838">
-      <p>Google Chrome - 9 May 2025 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/9d5ae6a7e7474d6c89570b51af1ae838">
-      <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/9d5ae6a7e7474d6c89570b51af1ae838-e09fd0ce66f59e8f-full-play.gif">
-    </a>
-  </div>
+<div style="position: relative; padding-bottom: 64.98194945848375%; height: 0;"><iframe src="https://www.loom.com/embed/9d5ae6a7e7474d6c89570b51af1ae838?sid=3de8fa3e-c73f-4b2d-8498-655a2cf94621" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
